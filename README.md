@@ -10,7 +10,7 @@ DASFAA 2025: Diffusion-based Hierarchical Negative Sampling for Multimodal Knowl
 This is the PyTorch implementation of the [DHNS](https://arxiv.org/pdf/2501.15393) framework. We propose a novel Diffusion-based Hierarchical Negative Sampling (DHNS) scheme tailored for multimodal knowledge graph completion (MMKGC) tasks, which tackles the challenge of generating high-quality negative triples by leveraging a Diffusion-based Hierarchical Embedding Generation (DiffHEG) that progressively conditions on entities and relations as well as multimodal semantics. Furthermore, we develop a Negative Triple-Adaptive Training (NTAT) strategy that dynamically adjusts training margins associated with the hardness level of the synthesized negative triples, facilitating a more robust and effective learning procedure to distinguish between positive and negative triples.
 
 ## 🌈 An Overview of the DHNS Framework
-![image](https://github.com/ngl567/DHNS/blob/main/framework.png)
+![image](https://github.com/ngl567/DHNS/blob/main/framework-1.png)
 
 ## 💻 Installation
 Create a conda environment with pytorch:  
@@ -34,9 +34,9 @@ If you use the codes, please cite the following paper:
   author        = {Guanglin Niu and
                    Xiaowei Zhang},
   title         = {Diffusion-based Hierarchical Negative Sampling for Multimodal Knowledge Graph Completion},
-  archivePrefix = {AAAI},
-  year          = {2023},
+  archivePrefix = {arXiv},
+  year          = {2025},
   eprint        = {2501.15393},
-  primaryClass  ={cs.AI}
+  primaryClass  = {cs.AI}
 }
 ```
