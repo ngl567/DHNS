@@ -25,7 +25,10 @@ We reuse three multimodal knowledge graph datasets namely DB15K, MKG-W and MKG-Y
 The visual and textual embeddings of the MMKGs could be downloaded from this [Google Drive](https://drive.google.com/drive/folders/1UJSfnb8DEx2s-k8zaQx1fWUw5f45GBpI?usp=sharing). You can kindly put all the files of format .pth in the folder ./embeddings/.
 
 ## 🚀 Train and Test
-In order to reproduce the results of DHNS model on the datasets, you can kindly use the shell scripts in the folder ./scripts/ and run the experiments.
+In order to reproduce the results of DHNS model on the datasets, you can kindly run the following command with DistMult+DHNS on MKG-Y for an instance:  
+```
+python train_dhns.py
+```
 
 ## 🤝 Citation
 If you use the codes, please cite the following paper:
