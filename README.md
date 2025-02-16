@@ -17,7 +17,7 @@ Create a conda environment with pytorch:
 ```
 conda create --name dhns_env python=3.8
 source activate dhns_env
-conda install --file requirements.txt -c pytorch
+pip install -r requirements.txt
 ```
 
 ## 📁 Datasets and Pretrained Embeddings
